@@ -3,13 +3,10 @@ import Head from 'next/head';
 
 const Explore: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>Explore | Twitter</title>
-        <meta name="description" content="Explore | Twitter" />
-      </Head>
-      Explore
-    </>
+    <Head>
+      <title>Explore | Twitter</title>
+      <meta name="description" content="Explore | Twitter" />
+    </Head>
   );
 };
 

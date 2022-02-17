@@ -2,8 +2,10 @@ type Icon =
   | 'add-outline'
   | 'bookmark'
   | 'bookmark-outline'
+  | 'chatbubble-outline'
   | 'compass'
   | 'compass-outline'
+  | 'heart-outline'
   | 'home'
   | 'home-outline'
   | 'logo-twitter'
@@ -14,6 +16,8 @@ type Icon =
   | 'person'
   | 'person-outline'
   | 'reader'
-  | 'reader-outline';
+  | 'reader-outline'
+  | 'repeat-outline'
+  | 'share-outline';
 
 export default Icon;

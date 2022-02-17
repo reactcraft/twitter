@@ -3,13 +3,10 @@ import Head from 'next/head';
 
 const Profile: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>Profile | Twitter</title>
-        <meta name="description" content="Profile | Twitter" />
-      </Head>
-      Profile
-    </>
+    <Head>
+      <title>Profile | Twitter</title>
+      <meta name="description" content="Profile | Twitter" />
+    </Head>
   );
 };
 

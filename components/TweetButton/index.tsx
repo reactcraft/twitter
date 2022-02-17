@@ -2,7 +2,7 @@ import Icon from '../Icon';
 
 const TweetButton = () => (
   <button
-    className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-600 text-white lg:w-full"
+    className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-500 text-white lg:w-full"
     type="button"
     aria-label="Tweet"
   >

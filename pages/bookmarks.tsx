@@ -3,13 +3,10 @@ import Head from 'next/head';
 
 const Bookmarks: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>Bookmarks | Twitter</title>
-        <meta name="description" content="Bookmarks | Twitter" />
-      </Head>
-      Bookmarks
-    </>
+    <Head>
+      <title>Bookmarks | Twitter</title>
+      <meta name="description" content="Bookmarks | Twitter" />
+    </Head>
   );
 };
 
