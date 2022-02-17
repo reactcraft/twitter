@@ -3,7 +3,7 @@ import Head from 'next/head';
 import '../styles/globals.css';
 import { Layout } from '../components';
 
-const MyApp = ({ Component, pageProps }: AppProps) => (
+const App = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
@@ -14,4 +14,4 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
   </>
 );
 
-export default MyApp;
+export default App;
