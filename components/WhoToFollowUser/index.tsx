@@ -13,7 +13,7 @@ const WhoToFollowUser = ({ user }: WhoToFollowUserProps) => (
         <p className="text-muted text-sm">{formatUsername(user.username)}</p>
       </div>
     </div>
-    <Button>Follow</Button>
+    <Button color="secondary">Follow</Button>
   </li>
 );
 
