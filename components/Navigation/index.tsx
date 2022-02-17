@@ -3,7 +3,7 @@ import NavigationItem from '../NavigationItem';
 
 const Navigation = ({ items }: NavigationProps) => (
   <nav>
-    <ul className="space-y-2">
+    <ul className="space-y-3">
       {items.map((item) => (
         <NavigationItem item={item} key={item.label} />
       ))}

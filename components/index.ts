@@ -6,3 +6,4 @@ export { default as Navigation } from './Navigation';
 export { default as NavigationItem } from './NavigationItem';
 export { default as RightSidebar } from './RightSidebar';
 export { default as Sidebar } from './Sidebar';
+export { default as TweetButton } from './TweetButton';

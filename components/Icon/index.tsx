@@ -1,4 +1,5 @@
 import {
+  IoAddOutline,
   IoBookmark,
   IoBookmarkOutline,
   IoCompass,
@@ -17,38 +18,40 @@ import {
 } from 'react-icons/io5';
 import type IconProps from './IconProps';
 
-const Icon = ({ icon, size = 20 }: IconProps) => {
+const Icon = ({ className, icon, size = 20 }: IconProps) => {
   switch (icon) {
+    case 'add-outline':
+      return <IoAddOutline className={className} size={size} />;
     case 'bookmark':
-      return <IoBookmark size={size} />;
+      return <IoBookmark className={className} size={size} />;
     case 'bookmark-outline':
-      return <IoBookmarkOutline size={size} />;
+      return <IoBookmarkOutline className={className} size={size} />;
     case 'compass':
-      return <IoCompass size={size} />;
+      return <IoCompass className={className} size={size} />;
     case 'compass-outline':
-      return <IoCompassOutline size={size} />;
+      return <IoCompassOutline className={className} size={size} />;
     case 'home':
-      return <IoHome size={size} />;
+      return <IoHome className={className} size={size} />;
     case 'home-outline':
-      return <IoHomeOutline size={size} />;
+      return <IoHomeOutline className={className} size={size} />;
     case 'logo-twitter':
-      return <IoLogoTwitter size={size} />;
+      return <IoLogoTwitter className={className} size={size} />;
     case 'mail':
-      return <IoMail size={size} />;
+      return <IoMail className={className} size={size} />;
     case 'mail-outline':
-      return <IoMailOutline size={size} />;
+      return <IoMailOutline className={className} size={size} />;
     case 'notifications':
-      return <IoNotifications size={size} />;
+      return <IoNotifications className={className} size={size} />;
     case 'notifications-outline':
-      return <IoNotificationsOutline size={size} />;
+      return <IoNotificationsOutline className={className} size={size} />;
     case 'person':
-      return <IoPerson size={size} />;
+      return <IoPerson className={className} size={size} />;
     case 'person-outline':
-      return <IoPersonOutline size={size} />;
+      return <IoPersonOutline className={className} size={size} />;
     case 'reader':
-      return <IoReader size={size} />;
+      return <IoReader className={className} size={size} />;
     case 'reader-outline':
-      return <IoReaderOutline size={size} />;
+      return <IoReaderOutline className={className} size={size} />;
     default:
       return null;
   }

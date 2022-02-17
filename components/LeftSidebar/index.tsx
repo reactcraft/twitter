@@ -1,9 +1,10 @@
 import Sidebar from '../Sidebar';
 import HomeLink from '../HomeLink';
 import Navigation from '../Navigation';
+import TweetButton from '../TweetButton';
 
 const LeftSidebar = () => (
-  <Sidebar className="flex flex-col items-center gap-2 lg:items-start">
+  <Sidebar className="flex flex-col items-center gap-3 lg:items-start">
     <HomeLink />
     <Navigation
       items={[
@@ -51,6 +52,7 @@ const LeftSidebar = () => (
         },
       ]}
     />
+    <TweetButton />
   </Sidebar>
 );
 

@@ -1,4 +1,5 @@
 type Icon =
+  | 'add-outline'
   | 'bookmark'
   | 'bookmark-outline'
   | 'compass'
