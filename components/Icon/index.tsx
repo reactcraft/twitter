@@ -3,6 +3,7 @@ import {
   IoBookmark,
   IoBookmarkOutline,
   IoChatbubbleOutline,
+  IoCheckmarkCircle,
   IoCompass,
   IoCompassOutline,
   IoHeartOutline,
@@ -32,6 +33,8 @@ const Icon = ({ className, icon, size = 20 }: IconProps) => {
       return <IoBookmarkOutline className={className} size={size} />;
     case 'chatbubble-outline':
       return <IoChatbubbleOutline className={className} size={size} />;
+    case 'checkmark-circle':
+      return <IoCheckmarkCircle className={className} size={size} />;
     case 'compass':
       return <IoCompass className={className} size={size} />;
     case 'compass-outline':

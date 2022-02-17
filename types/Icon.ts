@@ -3,6 +3,7 @@ type Icon =
   | 'bookmark'
   | 'bookmark-outline'
   | 'chatbubble-outline'
+  | 'checkmark-circle'
   | 'compass'
   | 'compass-outline'
   | 'heart-outline'

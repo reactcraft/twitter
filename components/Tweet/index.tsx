@@ -1,5 +1,6 @@
 import type TweetProps from './TweetProps';
 import Avatar from '../Avatar';
+import Icon from '../Icon';
 import { dayjs } from '../../lib';
 import TweetActions from '../TweetActions';
 
@@ -9,6 +10,12 @@ const Tweet = ({ tweet }: TweetProps) => (
     <div>
       <div className="flex gap-1">
         <h2 className="text-sm">{tweet.user.displayName}</h2>
+        {tweet.user.verified && (
+          <Icon
+            className="text-primary-500 dark:text-white"
+            icon="checkmark-circle"
+          />
+        )}
         <p className="text-sm text-gray-500 dark:text-gray-400">{`@${
           tweet.user.username
         } · ${dayjs(tweet.createdAt).fromNow()}`}</p>

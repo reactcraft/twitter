@@ -16,6 +16,7 @@ const Home: NextPage = () => {
             user: {
               photoURL: 'https://avatars.githubusercontent.com/u/99895370?v=4',
               displayName: 'ReactCraft',
+              verified: true,
               username: 'reactcraft',
             },
             createdAt: new Date(),
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
             user: {
               photoURL: 'https://avatars.githubusercontent.com/u/99895370?v=4',
               displayName: 'ReactCraft',
+              verified: true,
               username: 'reactcraft',
             },
             createdAt: new Date(),
@@ -42,6 +44,7 @@ const Home: NextPage = () => {
             user: {
               photoURL: 'https://avatars.githubusercontent.com/u/99895370?v=4',
               displayName: 'ReactCraft',
+              verified: true,
               username: 'reactcraft',
             },
             createdAt: new Date(),
