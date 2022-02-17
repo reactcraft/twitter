@@ -10,7 +10,7 @@ const Tweet = ({ tweet }: TweetProps) => (
   <li className="relative grid grid-cols-[3rem,1fr] items-start gap-3 p-3">
     <Avatar src={tweet.user.photoURL} alt={tweet.user.username} />
     <div>
-      <div className="flex gap-1 pr-5">
+      <div className="flex flex-col pr-5 sm:flex-row sm:gap-1">
         <DisplayName user={tweet.user} />
         <p className="text-muted text-sm">{`${formatUsername(
           tweet.user.username
