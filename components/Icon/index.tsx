@@ -5,6 +5,7 @@ import {
   IoCompassOutline,
   IoHome,
   IoHomeOutline,
+  IoLogoTwitter,
   IoMail,
   IoMailOutline,
   IoNotifications,
@@ -30,6 +31,8 @@ const Icon = ({ icon, size = 20 }: IconProps) => {
       return <IoHome size={size} />;
     case 'home-outline':
       return <IoHomeOutline size={size} />;
+    case 'logo-twitter':
+      return <IoLogoTwitter size={size} />;
     case 'mail':
       return <IoMail size={size} />;
     case 'mail-outline':

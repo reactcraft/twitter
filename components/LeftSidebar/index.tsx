@@ -1,8 +1,10 @@
 import Sidebar from '../Sidebar';
+import HomeLink from '../HomeLink';
 import Navigation from '../Navigation';
 
 const LeftSidebar = () => (
-  <Sidebar>
+  <Sidebar className="flex flex-col items-center gap-2 lg:items-start">
+    <HomeLink />
     <Navigation
       items={[
         {

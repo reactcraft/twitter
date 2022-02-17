@@ -5,6 +5,7 @@ type Icon =
   | 'compass-outline'
   | 'home'
   | 'home-outline'
+  | 'logo-twitter'
   | 'mail'
   | 'mail-outline'
   | 'notifications'

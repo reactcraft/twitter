@@ -1,3 +1,4 @@
+export { default as HomeLink } from './HomeLink';
 export { default as Icon } from './Icon';
 export { default as Layout } from './Layout';
 export { default as LeftSidebar } from './LeftSidebar';
