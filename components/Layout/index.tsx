@@ -4,7 +4,7 @@ import Main from '../Main';
 import RightSidebar from '../RightSidebar';
 
 const Layout = ({ children }: LayoutProps) => (
-  <div className="grid h-screen grid-cols-[4rem,1fr] lg:container lg:grid-cols-[20rem,1fr,20rem]">
+  <div className="grid h-screen grid-cols-[4rem,1fr] xl:container xl:grid-cols-[20rem,1fr,20rem]">
     <LeftSidebar />
     <Main>{children}</Main>
     <RightSidebar />

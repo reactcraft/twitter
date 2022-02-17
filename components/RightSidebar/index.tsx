@@ -2,7 +2,7 @@ import Sidebar from '../Sidebar';
 import WhoToFollow from '../WhoToFollow';
 
 const RightSidebar = () => (
-  <Sidebar className="hidden lg:block">
+  <Sidebar className="hidden xl:block">
     <WhoToFollow
       users={[
         {

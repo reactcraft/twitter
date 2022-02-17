@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import TweetButton from '../TweetButton';
 
 const LeftSidebar = () => (
-  <Sidebar className="flex flex-col items-center gap-3 lg:items-start">
+  <Sidebar className="flex flex-col items-center gap-3 xl:items-start">
     <HomeLink />
     <Navigation
       items={[

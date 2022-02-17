@@ -12,12 +12,12 @@ const NavigationItem = ({ item }: NavigationItemProps) => {
     <li>
       <Link href={item.href}>
         <a
-          className="inline-flex items-center gap-3 rounded-full p-3 hover:bg-gray-100 dark:hover:bg-gray-800 lg:p-2.5"
+          className="inline-flex items-center gap-3 rounded-full p-3 hover:bg-gray-100 dark:hover:bg-gray-800 xl:p-2.5"
           aria-label={item.label}
         >
           <Icon icon={active ? item.activeIcon : item.inactiveIcon} size={24} />
           <span
-            className={classNames('hidden text-xl lg:inline', {
+            className={classNames('hidden text-xl xl:inline', {
               'font-bold': active,
             })}
           >
