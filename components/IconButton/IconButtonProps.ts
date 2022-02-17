@@ -1,6 +1,8 @@
-import type { Icon } from '../../types';
+import type { Icon, IconButtonColor } from '../../types';
 
 type IconButtonProps = {
+  className?: string;
+  color?: IconButtonColor;
   icon: Icon;
   ariaLabel: string;
 };

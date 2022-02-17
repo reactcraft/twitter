@@ -8,6 +8,7 @@ import {
   IoCheckmarkCircle,
   IoCompass,
   IoCompassOutline,
+  IoEllipsisHorizontal,
   IoHappyOutline,
   IoHeartOutline,
   IoHome,
@@ -49,6 +50,8 @@ const Icon = ({ className, icon, size = 20 }: IconProps) => {
       return <IoCompass className={className} size={size} />;
     case 'compass-outline':
       return <IoCompassOutline className={className} size={size} />;
+    case 'ellipsis-horizontal':
+      return <IoEllipsisHorizontal className={className} size={size} />;
     case 'happy-outline':
       return <IoHappyOutline className={className} size={size} />;
     case 'heart-outline':

@@ -8,6 +8,7 @@ type Icon =
   | 'checkmark-circle'
   | 'compass'
   | 'compass-outline'
+  | 'ellipsis-horizontal'
   | 'happy-outline'
   | 'heart-outline'
   | 'home'
