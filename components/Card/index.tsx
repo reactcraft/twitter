@@ -1,7 +1,7 @@
 import type CardProps from './CardProps';
 
 const Card = ({ title, children }: CardProps) => (
-  <div className="space-y-3 rounded-lg bg-gray-100 p-3 dark:bg-gray-800">
+  <div className="bg-muted space-y-3 rounded-lg p-3">
     <h2 className="text-lg">{title}</h2>
     {children}
   </div>

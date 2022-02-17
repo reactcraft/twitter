@@ -19,6 +19,7 @@ import {
   IoReader,
   IoReaderOutline,
   IoRepeatOutline,
+  IoSearchOutline,
   IoShareOutline,
 } from 'react-icons/io5';
 import type IconProps from './IconProps';
@@ -65,6 +66,8 @@ const Icon = ({ className, icon, size = 20 }: IconProps) => {
       return <IoReaderOutline className={className} size={size} />;
     case 'repeat-outline':
       return <IoRepeatOutline className={className} size={size} />;
+    case 'search-outline':
+      return <IoSearchOutline className={className} size={size} />;
     case 'share-outline':
       return <IoShareOutline className={className} size={size} />;
     default:

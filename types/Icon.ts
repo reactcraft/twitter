@@ -19,6 +19,7 @@ type Icon =
   | 'reader'
   | 'reader-outline'
   | 'repeat-outline'
+  | 'search-outline'
   | 'share-outline';
 
 export default Icon;

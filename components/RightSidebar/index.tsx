@@ -1,8 +1,10 @@
 import Sidebar from '../Sidebar';
+import Search from '../Search';
 import WhoToFollow from '../WhoToFollow';
 
 const RightSidebar = () => (
-  <Sidebar className="hidden xl:block">
+  <Sidebar className="hidden space-y-3 xl:block">
+    <Search />
     <WhoToFollow
       users={[
         {
