@@ -6,7 +6,7 @@ import { dayjs } from '../../lib';
 import TweetActions from '../TweetActions';
 
 const Tweet = ({ tweet }: TweetProps) => (
-  <li className="grid grid-cols-[2.5rem,1fr] items-start gap-3 p-3">
+  <li className="grid grid-cols-[3rem,1fr] items-start gap-3 p-3">
     <Avatar src={tweet.user.photoURL} alt={tweet.user.username} />
     <div>
       <div className="flex gap-1">

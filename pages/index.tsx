@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Tweets } from '../components';
+import { TweetForm, Tweets } from '../components';
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +9,15 @@ const Home: NextPage = () => {
         <title>Home | Twitter</title>
         <meta name="description" content="Home | Twitter" />
       </Head>
+      <TweetForm
+        user={{
+          id: '1',
+          photoURL: 'https://avatars.githubusercontent.com/u/99895370?v=4',
+          displayName: 'ReactCraft',
+          verified: true,
+          username: 'reactcraft',
+        }}
+      />
       <Tweets
         tweets={[
           {

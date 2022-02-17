@@ -18,7 +18,7 @@ const TweetAction = ({
     aria-label={ariaLabel}
   >
     <span
-      className={classNames('rounded-full p-2 group-hover:bg-opacity-10', {
+      className={classNames('rounded-full p-2.5 group-hover:bg-opacity-10', {
         'group-hover:bg-primary-500': color === 'primary',
         'group-hover:bg-emerald-500': color === 'emerald',
         'group-hover:bg-rose-500': color === 'pink',
