@@ -7,7 +7,7 @@ const Input = ({ icon, placeholder, ariaLabel }: InputProps) => (
     {icon && <Icon className="absolute left-3 top-3.5" icon={icon} />}
     <input
       className={classNames(
-        'bg-muted block w-full rounded-full py-3.5 pr-3 text-sm',
+        'bg-muted block w-full rounded-full py-3.5 pr-3 text-sm focus:outline-primary-500',
         {
           'pl-11': icon,
           'pl-3': !icon,
