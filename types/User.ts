@@ -1,4 +1,5 @@
 type User = {
+  id: string;
   photoURL: string;
   displayName: string;
   verified: boolean;

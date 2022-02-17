@@ -1,4 +1,7 @@
 export { default as Avatar } from './Avatar';
+export { default as Button } from './Button';
+export { default as Card } from './Card';
+export { default as DisplayName } from './DisplayName';
 export { default as HomeLink } from './HomeLink';
 export { default as Icon } from './Icon';
 export { default as Layout } from './Layout';
@@ -13,3 +16,6 @@ export { default as TweetAction } from './TweetAction';
 export { default as TweetActions } from './TweetAction';
 export { default as TweetButton } from './TweetButton';
 export { default as Tweets } from './Tweets';
+export { default as WhoToFollow } from './WhoToFollow';
+export { default as WhoToFollowUser } from './WhoToFollowUser';
+export { default as WhoToFollowUsers } from './WhoToFollowUsers';

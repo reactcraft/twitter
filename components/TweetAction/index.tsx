@@ -9,14 +9,11 @@ const TweetAction = ({
   ariaLabel,
 }: TweetActionProps) => (
   <button
-    className={classNames(
-      'group relative flex items-center gap-1 text-gray-600 dark:text-gray-400',
-      {
-        'hover:text-primary-500': color === 'primary',
-        'hover:text-emerald-500': color === 'emerald',
-        'hover:text-pink-500': color === 'pink',
-      }
-    )}
+    className={classNames('group text-muted relative flex items-center gap-1', {
+      'hover:text-primary-500': color === 'primary',
+      'hover:text-emerald-500': color === 'emerald',
+      'hover:text-pink-500': color === 'pink',
+    })}
     type="button"
     aria-label={ariaLabel}
   >
