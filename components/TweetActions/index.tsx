@@ -2,7 +2,7 @@ import type TweetActionsProps from './TweetActionsProps';
 import TweetAction from '../TweetAction';
 
 const TweetActions = ({ tweet }: TweetActionsProps) => (
-  <div className="flex justify-between">
+  <div className="grid grid-cols-4 justify-items-start">
     <TweetAction
       icon="chatbubble-outline"
       count={tweet.comments}
