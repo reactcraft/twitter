@@ -4,7 +4,7 @@ import Icon from '../Icon';
 const HomeLink = () => (
   <Link href="/">
     <a
-      className="rounded-full p-3 text-primary-500 hover:bg-primary-500 hover:bg-opacity-10 dark:text-white dark:hover:bg-gray-800"
+      className="rounded-full p-3 text-primary-500 hover:bg-primary-500 hover:bg-opacity-10 dark:text-white dark:hover:bg-gray-800 dark:hover:bg-opacity-100"
       aria-label="Home"
     >
       <Icon icon="logo-twitter" size={24} />
